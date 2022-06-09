@@ -85,7 +85,7 @@ function App() {
             <button className="tab-btn" data-id="business-detail" onClick={() => tabular()}>Business Details</button>
             <button className="tab-btn" data-id="loan-detail" onClick={() => tabular()}>Loan Application Details</button>
           </div>
-          <form className="about-content text-center" method='post' action='http://localhost:5000/'>
+          <form className="about-content text-center" method='post' action='/'>
             <div className="content active" id="personal-detail">
               <div className="input-group w-50 mb-3 m-auto">
                 <span className="input-group-text fas fa-user" id="basic-addon1"></span>
